@@ -1,15 +1,15 @@
-<h1 align='center'>console.log(" Hello devs <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="32" height="32">, Rajesh here ")</h1>
+<h1 align='center'>console.log(" Hello devs <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="35" height="35">, Rajesh here ")</h1>
 <h4 align="center">DEVELOPER. GYM FREAK. CINEPHILE.</h4>
 
 
 ### About Me
 ```javascript
 
-import express, { Express, Request, Response } from "express";
+const Express = require('express');
 
-const app: Express = express();
+const app = Express();
 
-app.get("/about", (req: Request, res: Response) => {
+app.get("/about", (req , res) => {
   res.status(404).json({
     fullName: "rajesh ande",
     interests: [
