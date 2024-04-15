@@ -15,9 +15,7 @@ app.get("/about", (req , res) => {
     interests: [
       "coding 💻",
       "movie 🎬",
-      "music 🎧",
-      "photography 📷",
-      "gym 🏋🏽"
+      "gym 🏋🏽",
       "coffee ☕",
     ],
     askMeAbout: ["web dev", "mern", "movies"],
