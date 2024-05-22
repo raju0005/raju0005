@@ -38,6 +38,7 @@ app.get("/contact", (req: Request, res: Response) => {
   res.status(200).json({
     email: "anderajesh15@gmail.com",
     links: {
+      portfolio:"https://rajeshande.netlify.app/"
       linkedin: "https://www.linkedin.com/in/rajesh-ande-2175ab197/",
      
     },
